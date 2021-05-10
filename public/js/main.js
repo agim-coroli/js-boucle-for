@@ -124,21 +124,21 @@
 
 
 // exo7 
-// let sommes = [14, 7 , 97, 65 , 247 , 67 , 101 , 4 , 34 ,78 , 1 ,900 , 0, 11 , 32 , 23 , 61];
+let sommes = [14, 7 , 97, 65 , 247 , 67 , 101 , 4 , 34 ,78 , 1 ,900 , 0, 11 , 32 , 23 , 61];
 
-// let grossesSommes = [];
+let grossesSommes = [];
 
-// for (let i = 0; i < sommes.length; i++) {
-//     if (sommes[i] > 60) {
-//         grossesSommes.push(sommes[i]);
-//     }
-// }
-// for (let i = 0; i < grossesSommes.length; i++) {
-//     sommes.splice(sommes.indexOf(grossesSommes[i]), 1);
-// }
+for (let i = 0; i < sommes.length; i++) {
+    if (sommes[i] > 60) {
+        grossesSommes.push(sommes[i]);
+    }
+}
+for (let i = 0; i < grossesSommes.length; i++) {
+    sommes.splice(sommes.indexOf(grossesSommes[i]), 1);
+}
 
-// console.log(sommes);
-// console.log(grossesSommes);
+console.log(sommes);
+console.log(grossesSommes);
 
 // autre methode 
 // let sommes = [14, 7 , 97, 65 , 247 , 67 , 101 , 4 , 34 ,78 , 1 ,900 , 0, 11 , 32 , 23 , 61];
@@ -153,24 +153,3 @@
 // }
 // console.log(sommes);
 // console.log(grossesSommes);
-
-
-
-
-
-
-// exo8 
-// let donnees = [14, 7 , 97, {} , "247" , 67 , 101 , true , 34 ,78 , [] ,'coding school' , 0, 11 , 32 , "italie" , 61,null,'cent',100];
-// let typeString = [];
-// let typeNumber = [];
-// let typeObject = [];
-// let typeAutre = [];
-
-// for (let i = 0; i < donnees.length ; i++) {
-//     if (typeof(donnees[i]) == Number) {
-//         typeNumber.push(donnees[i])
-//     }
-    
-// }
-// console.log(donnees);
-// console.log(typeNumber);
